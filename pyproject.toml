@@ -23,7 +23,8 @@ classifiers = [
 packages = [{ include = "my_app" }]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+# injected into runtime.txt so must be exact
+python = "3.10.6"
 django = "^4.0"
 
 [tool.poetry.dev-dependencies]
