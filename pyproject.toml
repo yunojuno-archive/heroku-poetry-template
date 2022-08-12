@@ -26,6 +26,7 @@ packages = [{ include = "my_app" }]
 # injected into runtime.txt so must be exact
 python = "3.10.6"
 django = "^4.0"
+dj-database-url = "*"
 
 [tool.poetry.dev-dependencies]
 black = "*"
