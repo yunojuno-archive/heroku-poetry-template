@@ -5,5 +5,5 @@
 .tox
 .venv
 node_modules
-poetry.lock
+# poetry.lock
 test.db

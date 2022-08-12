@@ -64,26 +64,13 @@ The full suite is controlled by `tox`, which contains a set of
 environments that will format, lint, and test against all
 support Python + Django version combinations.
 
-```
-$ tox
-...
-______________________ summary __________________________
-  fmt: commands succeeded
-  lint: commands succeeded
-  mypy: commands succeeded
-  py37-django22: commands succeeded
-  py37-django32: commands succeeded
-  py37-djangomain: commands succeeded
-  py38-django22: commands succeeded
-  py38-django32: commands succeeded
-  py38-djangomain: commands succeeded
-  py39-django22: commands succeeded
-  py39-django32: commands succeeded
-  py39-djangomain: commands succeeded
-```
-
 #### CI
 
 There is a `.github/workflows/tox.yml` file that can be used as a
 baseline to run all of the tests on Github. This file runs the oldest
 (2.2), newest (3.2), and head of the main Django branch.
+### Deployment to Heroku
+
+This project also contains everything it needs to be deployed directly to Heroku.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
