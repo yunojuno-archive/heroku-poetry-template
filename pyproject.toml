@@ -27,6 +27,7 @@ packages = [{ include = "my_app" }]
 python = "3.10.6"
 django = "^4.0"
 dj-database-url = "*"
+psycopg2 = "*"
 
 [tool.poetry.dev-dependencies]
 black = "*"
