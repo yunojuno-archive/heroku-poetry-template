@@ -29,6 +29,7 @@ django = "^4.0"
 dj-database-url = "*"
 psycopg2 = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [tool.poetry.dev-dependencies]
 black = "*"
