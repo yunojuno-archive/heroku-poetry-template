@@ -641,8 +641,8 @@ docs = ["towncrier (>=21.9)", "sphinx-rtd-theme (>=1)", "sphinx-argparse (>=0.3.
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "9de3f7092fadf06236db6df8194676e49b0f441d31e2e7aafe279d216f7c4c50"
+python-versions = "3.10.6"
+content-hash = "b4ac54881ba1da8f1b8eeb90b2d57986705242389ddeeb494504ff7aacb27c85"
 
 [metadata.files]
 asgiref = [
